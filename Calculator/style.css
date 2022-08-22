@@ -1,0 +1,80 @@
+/* //below 610 */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+.text-center{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    font-stretch: condensed;
+}
+
+/* .bg-red{
+    background-color: red;
+} */
+
+.container{
+    font-family: 'Merriweather', serif;
+    border-radius: 34px;
+    width: 276px;
+    background-color: #dd5959;
+    height: 485px;
+}
+
+.mx-auto{
+margin: auto;
+}
+
+.m-w-20{
+    max-width: 40vw;
+}
+
+.button{
+    background-color: #b1e5f4;
+    text-align: center;
+    width: 50px;
+    height: 65px;
+    padding: 10px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px #6e0505;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+.button:hover{
+    background-color: rgb(93, 237, 237);
+    width: 51px;
+    transform: translateY(-4px);
+    font-size: 22px;
+    font-weight: 550;
+    
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.input{
+    padding: 9px 3px;
+    box-shadow: 2px 2px #6e0505;
+    border-radius: 8px;
+    font-size: 19px;
+    text-align: right;
+    background-color: #b1e5f4;
+    
+}
